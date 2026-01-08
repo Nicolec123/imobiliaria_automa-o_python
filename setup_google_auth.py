@@ -126,20 +126,59 @@ def load_google_credentials():
     """Carrega credenciais salvas"""
     import json
     
-    if not os.path.exists('google_credentials.json'):
-        return None
+    # Tenta carregar do arquivo
+    if os.path.exists('google_credentials.json'):
+        with open('google_credentials.json', 'r') as f:
+            creds_dict = json.load(f)
+        
+        return Credentials(
+            token=creds_dict['token'],
+            refresh_token=creds_dict.get('refresh_token'),
+            token_uri=creds_dict['token_uri'],
+            client_id=creds_dict['client_id'],
+            client_secret=creds_dict['client_secret'],
+            scopes=creds_dict['scopes']
+        )
     
-    with open('google_credentials.json', 'r') as f:
-        creds_dict = json.load(f)
+    # Se não existe arquivo, tenta criar a partir de variáveis de ambiente (Railway)
+    token = os.getenv('GOOGLE_OAUTH_TOKEN')
+    refresh_token = os.getenv('GOOGLE_OAUTH_REFRESH_TOKEN')
+    token_uri = os.getenv('GOOGLE_OAUTH_TOKEN_URI', 'https://oauth2.googleapis.com/token')
+    client_id = Config.GOOGLE_CLIENT_ID
+    client_secret = Config.GOOGLE_CLIENT_SECRET
+    scopes_str = os.getenv('GOOGLE_OAUTH_SCOPES', 'https://www.googleapis.com/auth/forms.responses.readonly,https://www.googleapis.com/auth/drive.file')
     
-    return Credentials(
-        token=creds_dict['token'],
-        refresh_token=creds_dict.get('refresh_token'),
-        token_uri=creds_dict['token_uri'],
-        client_id=creds_dict['client_id'],
-        client_secret=creds_dict['client_secret'],
-        scopes=creds_dict['scopes']
-    )
+    if token and refresh_token and client_id and client_secret:
+        scopes = [s.strip() for s in scopes_str.split(',')]
+        
+        creds = Credentials(
+            token=token,
+            refresh_token=refresh_token,
+            token_uri=token_uri,
+            client_id=client_id,
+            client_secret=client_secret,
+            scopes=scopes
+        )
+        
+        # Salva em arquivo para uso futuro
+        try:
+            creds_dict = {
+                'token': token,
+                'refresh_token': refresh_token,
+                'token_uri': token_uri,
+                'client_id': client_id,
+                'client_secret': client_secret,
+                'scopes': scopes
+            }
+            with open('google_credentials.json', 'w') as f:
+                json.dump(creds_dict, f, indent=2)
+            print("✅ Credenciais Google criadas a partir de variáveis de ambiente")
+        except:
+            pass  # Se não conseguir salvar, continua mesmo assim
+        
+        return creds
+    
+    return None
 
 
 if __name__ == '__main__':
