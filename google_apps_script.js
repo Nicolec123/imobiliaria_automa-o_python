@@ -11,9 +11,9 @@
  * 7. Adicione trigger: "Ao enviar formulário" > "processarFormulario"
  */
 
-// CONFIGURAÇÃO: URL da sua API
+// CONFIGURAÇÃO: URL da sua API (Railway)
 // IMPORTANTE: Use o endpoint /api/webhook/google-forms
-const API_URL = 'https://8daf4fa3da63.ngrok-free.app/api/webhook/google-forms';
+const API_URL = 'https://web-production-5ed79.up.railway.app/api/webhook/google-forms';
 
 /**
  * Função principal que é executada quando formulário é enviado
@@ -83,24 +83,56 @@ function enviarParaAPI(formData) {
     'contentType': 'application/json',
     'payload': JSON.stringify(payload),
     'muteHttpExceptions': true,
+    'followRedirects': true,
+    'validateHttpsCertificates': true,
     'headers': {
-      'ngrok-skip-browser-warning': 'true'  // Pula aviso do ngrok free
+      'User-Agent': 'GoogleAppsScript'
     }
   };
   
   try {
+    // Timeout de 30 segundos (Google Apps Script máximo é 30s)
     const response = UrlFetchApp.fetch(API_URL, options);
     const responseCode = response.getResponseCode();
     const responseText = response.getContentText();
     
+    Logger.log('Response Code: ' + responseCode);
+    Logger.log('Response Text: ' + responseText);
+    
     if (responseCode === 200) {
-      return JSON.parse(responseText);
+      try {
+        const result = JSON.parse(responseText);
+        Logger.log('Resposta parseada com sucesso');
+        return result;
+      } catch (parseError) {
+        Logger.log('Erro ao parsear JSON: ' + parseError.toString());
+        // Mesmo com erro de parse, se o código é 200, consideramos sucesso
+        return {
+          'success': true,
+          'message': 'Resposta recebida (parse JSON falhou)',
+          'raw_response': responseText
+        };
+      }
+    } else if (responseCode >= 500) {
+      // Erro do servidor - não tenta novamente
+      Logger.log('Erro 5xx do servidor: ' + responseCode);
+      throw new Error('Erro no servidor (5xx): ' + responseCode + ' - ' + responseText);
     } else {
-      throw new Error('Erro na API: ' + responseCode + ' - ' + responseText);
+      // Erro 4xx - erro do cliente
+      Logger.log('Erro 4xx: ' + responseCode);
+      throw new Error('Erro na requisição (4xx): ' + responseCode + ' - ' + responseText);
     }
   } catch (error) {
     Logger.log('Erro ao enviar para API: ' + error.toString());
-    throw error;
+    Logger.log('Tipo do erro: ' + typeof error);
+    
+    // Não relança o erro para não bloquear o formulário
+    // Apenas registra
+    return {
+      'success': false,
+      'error': error.toString(),
+      'message': 'Erro ao enviar para API, mas formulário foi salvo no Google Forms'
+    };
   }
 }
 

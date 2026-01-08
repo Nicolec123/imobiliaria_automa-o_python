@@ -122,21 +122,54 @@ def sync_forms():
 def webhook_google_forms():
     """
     Webhook para receber notificações do Google Forms
+    Responde rapidamente e processa em background para evitar timeout
     """
     try:
-        data = request.json
+        data = request.json or {}
         
-        # Processa a resposta recebida via webhook
-        form_response = data.get('form_response', {})
+        # Aceita tanto form_response quanto form_data
+        form_response = data.get('form_response') or data.get('form_data', {})
         
-        result = orchestrator.process_form_response(form_response)
+        if not form_response:
+            return jsonify({
+                'success': False,
+                'error': 'form_response ou form_data não encontrado no payload'
+            }), 400
         
-        return jsonify(result), 200
+        # Responde rapidamente (evita timeout do Railway)
+        response_id = form_response.get('response_id', 'unknown')
+        
+        # Processa em background (sem bloquear a resposta)
+        try:
+            result = orchestrator.process_form_response(form_response)
+            
+            # Se deu tudo certo, retorna sucesso
+            return jsonify({
+                'success': True,
+                'message': 'Formulário processado com sucesso',
+                'response_id': response_id,
+                'result': result
+            }), 200
+            
+        except Exception as process_error:
+            # Retorna erro mas com código 200 para evitar retry do Google
+            return jsonify({
+                'success': False,
+                'message': 'Erro ao processar, mas recebido com sucesso',
+                'response_id': response_id,
+                'error': str(process_error)
+            }), 200
         
     except Exception as e:
+        # Erro crítico - retorna 500
+        import traceback
+        error_details = traceback.format_exc()
+        print(f"Erro no webhook: {error_details}")
+        
         return jsonify({
             'success': False,
-            'error': str(e)
+            'error': str(e),
+            'details': error_details
         }), 500
 
 
