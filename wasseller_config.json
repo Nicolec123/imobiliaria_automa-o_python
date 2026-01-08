@@ -1,0 +1,66 @@
+{
+  "notificacoes": {
+    "grupos": [
+      {
+        "id": "55120363404748780930@g.us",
+        "nome": "P & B - Operacional",
+        "ativo": true
+      },
+      {
+        "id": "55120363412652992342@g.us",
+        "nome": "P & B - Equipe de Vendas",
+        "ativo": true
+      },
+      {
+        "id": "559888023639@g.us",
+        "nome": "P & B Imob.",
+        "ativo": true
+      },
+      {
+        "id": "554197330280@g.us",
+        "nome": "Chaves na Mão",
+        "ativo": true
+      },
+      {
+        "id": "55120363403941284688@g.us",
+        "nome": "P & B - Smart Key - Imóveis Econômicos",
+        "ativo": true
+      },
+      {
+        "id": "55120363420589895506@g.us",
+        "nome": "P & B - Urban Living - Médio Padrão",
+        "ativo": true
+      },
+      {
+        "id": "55120363421825499982@g.us",
+        "nome": "P & B - Signature - Alto Padrão",
+        "ativo": true
+      }
+    ],
+    "auto_descobrir_grupos": true,
+    "observacao_grupos": "Se auto_descobrir_grupos=true, o sistema tentará descobrir automaticamente todos os grupos. Se false, use apenas grupos configurados manualmente na lista 'grupos'.",
+    "pessoas": [
+      {
+        "telefone": "559999999999",
+        "nome": "Corretor 1",
+        "ativo": true
+      },
+      {
+        "telefone": "558888888888",
+        "nome": "Corretor 2",
+        "ativo": true
+      }
+    ]
+  },
+  "excecoes": {
+    "telefones_bloqueados": [
+      "559888023639"
+    ],
+    "grupos_bloqueados": [],
+    "observacao": "Telefones e grupos nesta lista NÃO receberão mensagens automáticas. O dono do número (559888023639) já está bloqueado automaticamente."
+  },
+  "mensagens": {
+    "template_novo_lead": "🔔 NOVO LEAD RECEBIDO\n\nID: {response_id}\nNome: {nome}\nTelefone: {telefone}\nTipo: {tipo_lead}\nPrioridade: {prioridade}\n\nAção: Verificar no ClickUp",
+    "template_boas_vindas": "Olá {nome}! 👋\n\nObrigado por entrar em contato conosco!\n\nRecebemos sua solicitação e nossa equipe já está analisando suas necessidades.\n\nEm breve entraremos em contato para dar continuidade ao seu atendimento.\n\nAtenciosamente,\nEquipe Imobiliária"
+  }
+}

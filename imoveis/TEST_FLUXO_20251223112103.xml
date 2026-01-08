@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Document>
+    <imoveis>
+        <imovel>
+            <referencia>TEST_FLUXO_20251223112103</referencia>
+            <codigo_cliente>TEST_FLUXO_20251223112103</codigo_cliente>
+            <link_cliente/>
+            <titulo>Apartamento</titulo>
+            <transacao>V</transacao>
+            <transacao2/>
+            <finalidade>RE</finalidade>
+            <finalidade2/>
+            <destaque>0</destaque>
+            <tipo>Apartamento</tipo>
+            <tipo2/>
+            <valor>500000.00</valor>
+            <valor_locacao/>
+            <valor_iptu/>
+            <valor_condominio/>
+            <area_total/>
+            <area_util/>
+            <conservacao/>
+            <quartos/>
+            <suites/>
+            <garagem/>
+            <banheiro/>
+            <closet/>
+            <salas/>
+            <despensa/>
+            <bar/>
+            <cozinha/>
+            <quarto_empregada/>
+            <escritorio/>
+            <area_servico/>
+            <lareira/>
+            <varanda/>
+            <lavanderia/>
+            <aceita_pet>0</aceita_pet>
+            <estado/>
+            <cidade>São Paulo</cidade>
+            <bairro>Zona Sul</bairro>
+            <cep/>
+            <endereco/>
+            <numero/>
+            <complemento/>
+            <esconder_endereco_imovel>0</esconder_endereco_imovel>
+            <descritivo xml:space="preserve">Procuro apartamento com 2 quartos, próximo ao metrô</descritivo>
+            <fotos_imovel/>
+            <data_atualizacao>2025-12-23 11:21:04</data_atualizacao>
+            <latitude/>
+            <longitude/>
+            <video/>
+            <tour_360/>
+            <area_comum/>
+            <area_privativa/>
+            <aceita_troca/>
+            <periodo_locacao/>
+        </imovel>
+    </imoveis>
+</Document>

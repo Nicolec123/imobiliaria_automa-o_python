@@ -1,0 +1,24 @@
+version: '3.8'
+
+services:
+  imobiliaria-integracao:
+    build: .
+    container_name: imobiliaria-integracao
+    ports:
+      - "5000:5000"
+    environment:
+      - FLASK_ENV=production
+    volumes:
+      # Monta volume para credenciais e configurações
+      - ./google_credentials.json:/app/google_credentials.json:ro
+      - ./.env:/app/.env:ro
+      - ./forms_config.json:/app/forms_config.json:ro
+      - ./wasseller_config.json:/app/wasseller_config.json:ro
+    restart: unless-stopped
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:5000/api/health"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+      start_period: 40s
+

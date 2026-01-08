@@ -1,0 +1,2810 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Document>
+    <imoveis>
+        <imovel>
+            
+            
+            <referencia>TEST_FLUXO_20251223110737</referencia>
+            
+            
+            <codigo_cliente>TEST_FLUXO_20251223110737</codigo_cliente>
+            
+            
+            <link_cliente/>
+            
+            
+            <titulo>Apartamento</titulo>
+            
+            
+            <transacao>V</transacao>
+            
+            
+            <transacao2/>
+            
+            
+            <finalidade>RE</finalidade>
+            
+            
+            <finalidade2/>
+            
+            
+            <destaque>0</destaque>
+            
+            
+            <tipo>Apartamento</tipo>
+            
+            
+            <tipo2/>
+            
+            
+            <valor>50000000</valor>
+            
+            
+            <valor_locacao/>
+            
+            
+            <valor_iptu/>
+            
+            
+            <valor_condominio/>
+            
+            
+            <area_total/>
+            
+            
+            <area_util/>
+            
+            
+            <conservacao/>
+            
+            
+            <quartos/>
+            
+            
+            <suites/>
+            
+            
+            <garagem/>
+            
+            
+            <banheiro/>
+            
+            
+            <closet/>
+            
+            
+            <salas/>
+            
+            
+            <despensa/>
+            
+            
+            <bar/>
+            
+            
+            <cozinha/>
+            
+            
+            <quarto_empregada/>
+            
+            
+            <escritorio/>
+            
+            
+            <area_servico/>
+            
+            
+            <lareira/>
+            
+            
+            <varanda/>
+            
+            
+            <lavanderia/>
+            
+            
+            <aceita_pet>1</aceita_pet>
+            
+            
+            <estado/>
+            
+            
+            <cidade>São Paulo</cidade>
+            
+            
+            <bairro/>
+            
+            
+            <cep/>
+            
+            
+            <endereco/>
+            
+            
+            <numero/>
+            
+            
+            <complemento/>
+            
+            
+            <esconder_endereco_imovel>0</esconder_endereco_imovel>
+            
+            
+            <descritivo xml:space="preserve">Procuro apartamento com 2 quartos, próximo ao metrô</descritivo>
+            
+            
+            <fotos_imovel/>
+            
+            
+            <data_atualizacao>2025-12-23 11:07:38</data_atualizacao>
+            
+            
+            <latitude/>
+            
+            
+            <longitude/>
+            
+            
+            <video/>
+            
+            
+            <tour_360/>
+            
+            
+            <area_comum/>
+            
+            
+            <area_privativa/>
+            
+            
+            <aceita_troca/>
+            
+            
+            <periodo_locacao/>
+            
+        
+        </imovel>
+        
+    
+        <imovel>
+            
+            
+            <referencia>TEST_FLUXO_20251223112103</referencia>
+            
+            
+            <codigo_cliente>TEST_FLUXO_20251223112103</codigo_cliente>
+            
+            
+            <link_cliente/>
+            
+            
+            <titulo>Apartamento</titulo>
+            
+            
+            <transacao>V</transacao>
+            
+            
+            <transacao2/>
+            
+            
+            <finalidade>RE</finalidade>
+            
+            
+            <finalidade2/>
+            
+            
+            <destaque>0</destaque>
+            
+            
+            <tipo>Apartamento</tipo>
+            
+            
+            <tipo2/>
+            
+            
+            <valor>50000000</valor>
+            
+            
+            <valor_locacao/>
+            
+            
+            <valor_iptu/>
+            
+            
+            <valor_condominio/>
+            
+            
+            <area_total/>
+            
+            
+            <area_util/>
+            
+            
+            <conservacao/>
+            
+            
+            <quartos/>
+            
+            
+            <suites/>
+            
+            
+            <garagem/>
+            
+            
+            <banheiro/>
+            
+            
+            <closet/>
+            
+            
+            <salas/>
+            
+            
+            <despensa/>
+            
+            
+            <bar/>
+            
+            
+            <cozinha/>
+            
+            
+            <quarto_empregada/>
+            
+            
+            <escritorio/>
+            
+            
+            <area_servico/>
+            
+            
+            <lareira/>
+            
+            
+            <varanda/>
+            
+            
+            <lavanderia/>
+            
+            
+            <aceita_pet>1</aceita_pet>
+            
+            
+            <estado/>
+            
+            
+            <cidade>São Paulo</cidade>
+            
+            
+            <bairro/>
+            
+            
+            <cep/>
+            
+            
+            <endereco/>
+            
+            
+            <numero/>
+            
+            
+            <complemento/>
+            
+            
+            <esconder_endereco_imovel>0</esconder_endereco_imovel>
+            
+            
+            <descritivo xml:space="preserve">Procuro apartamento com 2 quartos, próximo ao metrô</descritivo>
+            
+            
+            <fotos_imovel/>
+            
+            
+            <data_atualizacao>2025-12-23 11:21:04</data_atualizacao>
+            
+            
+            <latitude/>
+            
+            
+            <longitude/>
+            
+            
+            <video/>
+            
+            
+            <tour_360/>
+            
+            
+            <area_comum/>
+            
+            
+            <area_privativa/>
+            
+            
+            <aceita_troca/>
+            
+            
+            <periodo_locacao/>
+            
+        
+        </imovel>
+        
+    
+        <imovel>
+            
+            
+            <referencia>TEST_FLUXO_20251223112351</referencia>
+            
+            
+            <codigo_cliente>TEST_FLUXO_20251223112351</codigo_cliente>
+            
+            
+            <link_cliente/>
+            
+            
+            <titulo>Apartamento</titulo>
+            
+            
+            <transacao>V</transacao>
+            
+            
+            <transacao2/>
+            
+            
+            <finalidade>RE</finalidade>
+            
+            
+            <finalidade2/>
+            
+            
+            <destaque>0</destaque>
+            
+            
+            <tipo>Apartamento</tipo>
+            
+            
+            <tipo2/>
+            
+            
+            <valor>50000000</valor>
+            
+            
+            <valor_locacao/>
+            
+            
+            <valor_iptu/>
+            
+            
+            <valor_condominio/>
+            
+            
+            <area_total/>
+            
+            
+            <area_util/>
+            
+            
+            <conservacao/>
+            
+            
+            <quartos/>
+            
+            
+            <suites/>
+            
+            
+            <garagem/>
+            
+            
+            <banheiro/>
+            
+            
+            <closet/>
+            
+            
+            <salas/>
+            
+            
+            <despensa/>
+            
+            
+            <bar/>
+            
+            
+            <cozinha/>
+            
+            
+            <quarto_empregada/>
+            
+            
+            <escritorio/>
+            
+            
+            <area_servico/>
+            
+            
+            <lareira/>
+            
+            
+            <varanda/>
+            
+            
+            <lavanderia/>
+            
+            
+            <aceita_pet>1</aceita_pet>
+            
+            
+            <estado/>
+            
+            
+            <cidade>São Paulo</cidade>
+            
+            
+            <bairro/>
+            
+            
+            <cep/>
+            
+            
+            <endereco/>
+            
+            
+            <numero/>
+            
+            
+            <complemento/>
+            
+            
+            <esconder_endereco_imovel>0</esconder_endereco_imovel>
+            
+            
+            <descritivo xml:space="preserve">Procuro apartamento com 2 quartos, próximo ao metrô</descritivo>
+            
+            
+            <fotos_imovel/>
+            
+            
+            <data_atualizacao>2025-12-23 11:23:51</data_atualizacao>
+            
+            
+            <latitude/>
+            
+            
+            <longitude/>
+            
+            
+            <video/>
+            
+            
+            <tour_360/>
+            
+            
+            <area_comum/>
+            
+            
+            <area_privativa/>
+            
+            
+            <aceita_troca/>
+            
+            
+            <periodo_locacao/>
+            
+        
+        </imovel>
+        
+    
+        <imovel>
+            
+            
+            <referencia>TEST_FLUXO_20251223112823</referencia>
+            
+            
+            <codigo_cliente>TEST_FLUXO_20251223112823</codigo_cliente>
+            
+            
+            <link_cliente/>
+            
+            
+            <titulo>Apartamento</titulo>
+            
+            
+            <transacao>V</transacao>
+            
+            
+            <transacao2/>
+            
+            
+            <finalidade>RE</finalidade>
+            
+            
+            <finalidade2/>
+            
+            
+            <destaque>0</destaque>
+            
+            
+            <tipo>Apartamento</tipo>
+            
+            
+            <tipo2/>
+            
+            
+            <valor>50000000</valor>
+            
+            
+            <valor_locacao/>
+            
+            
+            <valor_iptu/>
+            
+            
+            <valor_condominio/>
+            
+            
+            <area_total/>
+            
+            
+            <area_util/>
+            
+            
+            <conservacao/>
+            
+            
+            <quartos/>
+            
+            
+            <suites/>
+            
+            
+            <garagem/>
+            
+            
+            <banheiro/>
+            
+            
+            <closet/>
+            
+            
+            <salas/>
+            
+            
+            <despensa/>
+            
+            
+            <bar/>
+            
+            
+            <cozinha/>
+            
+            
+            <quarto_empregada/>
+            
+            
+            <escritorio/>
+            
+            
+            <area_servico/>
+            
+            
+            <lareira/>
+            
+            
+            <varanda/>
+            
+            
+            <lavanderia/>
+            
+            
+            <aceita_pet>1</aceita_pet>
+            
+            
+            <estado/>
+            
+            
+            <cidade>São Paulo</cidade>
+            
+            
+            <bairro/>
+            
+            
+            <cep/>
+            
+            
+            <endereco/>
+            
+            
+            <numero/>
+            
+            
+            <complemento/>
+            
+            
+            <esconder_endereco_imovel>0</esconder_endereco_imovel>
+            
+            
+            <descritivo xml:space="preserve">Procuro apartamento com 2 quartos, próximo ao metrô</descritivo>
+            
+            
+            <fotos_imovel/>
+            
+            
+            <data_atualizacao>2025-12-23 11:28:24</data_atualizacao>
+            
+            
+            <latitude/>
+            
+            
+            <longitude/>
+            
+            
+            <video/>
+            
+            
+            <tour_360/>
+            
+            
+            <area_comum/>
+            
+            
+            <area_privativa/>
+            
+            
+            <aceita_troca/>
+            
+            
+            <periodo_locacao/>
+            
+        
+        </imovel>
+        
+    
+        <imovel>
+            
+            
+            <referencia>TEST_FLUXO_20251223115244</referencia>
+            
+            
+            <codigo_cliente>TEST_FLUXO_20251223115244</codigo_cliente>
+            
+            
+            <link_cliente/>
+            
+            
+            <titulo>Apartamento</titulo>
+            
+            
+            <transacao>V</transacao>
+            
+            
+            <transacao2/>
+            
+            
+            <finalidade>RE</finalidade>
+            
+            
+            <finalidade2/>
+            
+            
+            <destaque>0</destaque>
+            
+            
+            <tipo>Apartamento</tipo>
+            
+            
+            <tipo2/>
+            
+            
+            <valor>50000000</valor>
+            
+            
+            <valor_locacao/>
+            
+            
+            <valor_iptu/>
+            
+            
+            <valor_condominio/>
+            
+            
+            <area_total/>
+            
+            
+            <area_util/>
+            
+            
+            <conservacao/>
+            
+            
+            <quartos/>
+            
+            
+            <suites/>
+            
+            
+            <garagem/>
+            
+            
+            <banheiro/>
+            
+            
+            <closet/>
+            
+            
+            <salas/>
+            
+            
+            <despensa/>
+            
+            
+            <bar/>
+            
+            
+            <cozinha/>
+            
+            
+            <quarto_empregada/>
+            
+            
+            <escritorio/>
+            
+            
+            <area_servico/>
+            
+            
+            <lareira/>
+            
+            
+            <varanda/>
+            
+            
+            <lavanderia/>
+            
+            
+            <aceita_pet>1</aceita_pet>
+            
+            
+            <estado/>
+            
+            
+            <cidade>São Paulo</cidade>
+            
+            
+            <bairro/>
+            
+            
+            <cep/>
+            
+            
+            <endereco/>
+            
+            
+            <numero/>
+            
+            
+            <complemento/>
+            
+            
+            <esconder_endereco_imovel>0</esconder_endereco_imovel>
+            
+            
+            <descritivo xml:space="preserve">Procuro apartamento com 2 quartos, próximo ao metrô</descritivo>
+            
+            
+            <fotos_imovel/>
+            
+            
+            <data_atualizacao>2025-12-23 11:52:45</data_atualizacao>
+            
+            
+            <latitude/>
+            
+            
+            <longitude/>
+            
+            
+            <video/>
+            
+            
+            <tour_360/>
+            
+            
+            <area_comum/>
+            
+            
+            <area_privativa/>
+            
+            
+            <aceita_troca/>
+            
+            
+            <periodo_locacao/>
+            
+        
+        </imovel>
+        
+    
+        <imovel>
+            
+            
+            <referencia>TEST_FLUXO_20251223150324</referencia>
+            
+            
+            <codigo_cliente>TEST_FLUXO_20251223150324</codigo_cliente>
+            
+            
+            <link_cliente/>
+            
+            
+            <titulo>Apartamento</titulo>
+            
+            
+            <transacao>V</transacao>
+            
+            
+            <transacao2/>
+            
+            
+            <finalidade>RE</finalidade>
+            
+            
+            <finalidade2/>
+            
+            
+            <destaque>0</destaque>
+            
+            
+            <tipo>Apartamento</tipo>
+            
+            
+            <tipo2/>
+            
+            
+            <valor>50000000</valor>
+            
+            
+            <valor_locacao/>
+            
+            
+            <valor_iptu/>
+            
+            
+            <valor_condominio/>
+            
+            
+            <area_total/>
+            
+            
+            <area_util/>
+            
+            
+            <conservacao/>
+            
+            
+            <quartos/>
+            
+            
+            <suites/>
+            
+            
+            <garagem/>
+            
+            
+            <banheiro/>
+            
+            
+            <closet/>
+            
+            
+            <salas/>
+            
+            
+            <despensa/>
+            
+            
+            <bar/>
+            
+            
+            <cozinha/>
+            
+            
+            <quarto_empregada/>
+            
+            
+            <escritorio/>
+            
+            
+            <area_servico/>
+            
+            
+            <lareira/>
+            
+            
+            <varanda/>
+            
+            
+            <lavanderia/>
+            
+            
+            <aceita_pet>1</aceita_pet>
+            
+            
+            <estado/>
+            
+            
+            <cidade>São Paulo</cidade>
+            
+            
+            <bairro/>
+            
+            
+            <cep/>
+            
+            
+            <endereco/>
+            
+            
+            <numero/>
+            
+            
+            <complemento/>
+            
+            
+            <esconder_endereco_imovel>0</esconder_endereco_imovel>
+            
+            
+            <descritivo xml:space="preserve">Procuro apartamento com 2 quartos, próximo ao metrô</descritivo>
+            
+            
+            <fotos_imovel/>
+            
+            
+            <data_atualizacao>2025-12-23 15:03:26</data_atualizacao>
+            
+            
+            <latitude/>
+            
+            
+            <longitude/>
+            
+            
+            <video/>
+            
+            
+            <tour_360/>
+            
+            
+            <area_comum/>
+            
+            
+            <area_privativa/>
+            
+            
+            <aceita_troca/>
+            
+            
+            <periodo_locacao/>
+            
+        
+        </imovel>
+        
+    
+        <imovel>
+            
+            
+            <referencia>TEST_FLUXO_20251223151138</referencia>
+            
+            
+            <codigo_cliente>TEST_FLUXO_20251223151138</codigo_cliente>
+            
+            
+            <link_cliente/>
+            
+            
+            <titulo>Apartamento</titulo>
+            
+            
+            <transacao>V</transacao>
+            
+            
+            <transacao2/>
+            
+            
+            <finalidade>RE</finalidade>
+            
+            
+            <finalidade2/>
+            
+            
+            <destaque>0</destaque>
+            
+            
+            <tipo>Apartamento</tipo>
+            
+            
+            <tipo2/>
+            
+            
+            <valor>50000000</valor>
+            
+            
+            <valor_locacao/>
+            
+            
+            <valor_iptu/>
+            
+            
+            <valor_condominio/>
+            
+            
+            <area_total/>
+            
+            
+            <area_util/>
+            
+            
+            <conservacao/>
+            
+            
+            <quartos/>
+            
+            
+            <suites/>
+            
+            
+            <garagem/>
+            
+            
+            <banheiro/>
+            
+            
+            <closet/>
+            
+            
+            <salas/>
+            
+            
+            <despensa/>
+            
+            
+            <bar/>
+            
+            
+            <cozinha/>
+            
+            
+            <quarto_empregada/>
+            
+            
+            <escritorio/>
+            
+            
+            <area_servico/>
+            
+            
+            <lareira/>
+            
+            
+            <varanda/>
+            
+            
+            <lavanderia/>
+            
+            
+            <aceita_pet>1</aceita_pet>
+            
+            
+            <estado/>
+            
+            
+            <cidade>São Paulo</cidade>
+            
+            
+            <bairro/>
+            
+            
+            <cep/>
+            
+            
+            <endereco/>
+            
+            
+            <numero/>
+            
+            
+            <complemento/>
+            
+            
+            <esconder_endereco_imovel>0</esconder_endereco_imovel>
+            
+            
+            <descritivo xml:space="preserve">Procuro apartamento com 2 quartos, próximo ao metrô</descritivo>
+            
+            
+            <fotos_imovel/>
+            
+            
+            <data_atualizacao>2025-12-23 15:11:47</data_atualizacao>
+            
+            
+            <latitude/>
+            
+            
+            <longitude/>
+            
+            
+            <video/>
+            
+            
+            <tour_360/>
+            
+            
+            <area_comum/>
+            
+            
+            <area_privativa/>
+            
+            
+            <aceita_troca/>
+            
+            
+            <periodo_locacao/>
+            
+        
+        </imovel>
+        
+    
+        <imovel>
+            
+            
+            <referencia>TEST_FLUXO_20251223153214</referencia>
+            
+            
+            <codigo_cliente>TEST_FLUXO_20251223153214</codigo_cliente>
+            
+            
+            <link_cliente/>
+            
+            
+            <titulo>Apartamento</titulo>
+            
+            
+            <transacao>V</transacao>
+            
+            
+            <transacao2/>
+            
+            
+            <finalidade>RE</finalidade>
+            
+            
+            <finalidade2/>
+            
+            
+            <destaque>0</destaque>
+            
+            
+            <tipo>Apartamento</tipo>
+            
+            
+            <tipo2/>
+            
+            
+            <valor>50000000</valor>
+            
+            
+            <valor_locacao/>
+            
+            
+            <valor_iptu/>
+            
+            
+            <valor_condominio/>
+            
+            
+            <area_total/>
+            
+            
+            <area_util/>
+            
+            
+            <conservacao/>
+            
+            
+            <quartos/>
+            
+            
+            <suites/>
+            
+            
+            <garagem/>
+            
+            
+            <banheiro/>
+            
+            
+            <closet/>
+            
+            
+            <salas/>
+            
+            
+            <despensa/>
+            
+            
+            <bar/>
+            
+            
+            <cozinha/>
+            
+            
+            <quarto_empregada/>
+            
+            
+            <escritorio/>
+            
+            
+            <area_servico/>
+            
+            
+            <lareira/>
+            
+            
+            <varanda/>
+            
+            
+            <lavanderia/>
+            
+            
+            <aceita_pet>1</aceita_pet>
+            
+            
+            <estado/>
+            
+            
+            <cidade>São Paulo</cidade>
+            
+            
+            <bairro/>
+            
+            
+            <cep/>
+            
+            
+            <endereco/>
+            
+            
+            <numero/>
+            
+            
+            <complemento/>
+            
+            
+            <esconder_endereco_imovel>0</esconder_endereco_imovel>
+            
+            
+            <descritivo xml:space="preserve">Procuro apartamento com 2 quartos, próximo ao metrô</descritivo>
+            
+            
+            <fotos_imovel/>
+            
+            
+            <data_atualizacao>2025-12-23 15:32:19</data_atualizacao>
+            
+            
+            <latitude/>
+            
+            
+            <longitude/>
+            
+            
+            <video/>
+            
+            
+            <tour_360/>
+            
+            
+            <area_comum/>
+            
+            
+            <area_privativa/>
+            
+            
+            <aceita_troca/>
+            
+            
+            <periodo_locacao/>
+            
+        
+        </imovel>
+        
+    
+        <imovel>
+            
+            
+            <referencia>REAL_TEST_20251224172306</referencia>
+            
+            
+            <codigo_cliente>REAL_TEST_20251224172306</codigo_cliente>
+            
+            
+            <link_cliente/>
+            
+            
+            <titulo>Casa</titulo>
+            
+            
+            <transacao>V</transacao>
+            
+            
+            <transacao2/>
+            
+            
+            <finalidade>RE</finalidade>
+            
+            
+            <finalidade2/>
+            
+            
+            <destaque>0</destaque>
+            
+            
+            <tipo>Casa</tipo>
+            
+            
+            <tipo2/>
+            
+            
+            <valor>80000000</valor>
+            
+            
+            <valor_locacao/>
+            
+            
+            <valor_iptu/>
+            
+            
+            <valor_condominio/>
+            
+            
+            <area_total/>
+            
+            
+            <area_util/>
+            
+            
+            <conservacao/>
+            
+            
+            <quartos/>
+            
+            
+            <suites/>
+            
+            
+            <garagem/>
+            
+            
+            <banheiro/>
+            
+            
+            <closet/>
+            
+            
+            <salas/>
+            
+            
+            <despensa/>
+            
+            
+            <bar/>
+            
+            
+            <cozinha/>
+            
+            
+            <quarto_empregada/>
+            
+            
+            <escritorio/>
+            
+            
+            <area_servico/>
+            
+            
+            <lareira/>
+            
+            
+            <varanda/>
+            
+            
+            <lavanderia/>
+            
+            
+            <aceita_pet>1</aceita_pet>
+            
+            
+            <estado/>
+            
+            
+            <cidade>Rio de Janeiro</cidade>
+            
+            
+            <bairro/>
+            
+            
+            <cep/>
+            
+            
+            <endereco/>
+            
+            
+            <numero/>
+            
+            
+            <complemento/>
+            
+            
+            <esconder_endereco_imovel>0</esconder_endereco_imovel>
+            
+            
+            <descritivo xml:space="preserve">Nenhuma observação adicional fornecida.</descritivo>
+            
+            
+            <fotos_imovel/>
+            
+            
+            <data_atualizacao>2025-12-24 17:23:13</data_atualizacao>
+            
+            
+            <latitude/>
+            
+            
+            <longitude/>
+            
+            
+            <video/>
+            
+            
+            <tour_360/>
+            
+            
+            <area_comum/>
+            
+            
+            <area_privativa/>
+            
+            
+            <aceita_troca/>
+            
+            
+            <periodo_locacao/>
+            
+        
+        </imovel>
+        
+    
+        <imovel>
+            
+            
+            <referencia>REAL_TEST_20251224172527</referencia>
+            
+            
+            <codigo_cliente>REAL_TEST_20251224172527</codigo_cliente>
+            
+            
+            <link_cliente/>
+            
+            
+            <titulo>Casa</titulo>
+            
+            
+            <transacao>V</transacao>
+            
+            
+            <transacao2/>
+            
+            
+            <finalidade>RE</finalidade>
+            
+            
+            <finalidade2/>
+            
+            
+            <destaque>0</destaque>
+            
+            
+            <tipo>Casa</tipo>
+            
+            
+            <tipo2/>
+            
+            
+            <valor>80000000</valor>
+            
+            
+            <valor_locacao/>
+            
+            
+            <valor_iptu/>
+            
+            
+            <valor_condominio/>
+            
+            
+            <area_total/>
+            
+            
+            <area_util/>
+            
+            
+            <conservacao/>
+            
+            
+            <quartos/>
+            
+            
+            <suites/>
+            
+            
+            <garagem/>
+            
+            
+            <banheiro/>
+            
+            
+            <closet/>
+            
+            
+            <salas/>
+            
+            
+            <despensa/>
+            
+            
+            <bar/>
+            
+            
+            <cozinha/>
+            
+            
+            <quarto_empregada/>
+            
+            
+            <escritorio/>
+            
+            
+            <area_servico/>
+            
+            
+            <lareira/>
+            
+            
+            <varanda/>
+            
+            
+            <lavanderia/>
+            
+            
+            <aceita_pet>1</aceita_pet>
+            
+            
+            <estado/>
+            
+            
+            <cidade>Rio de Janeiro</cidade>
+            
+            
+            <bairro/>
+            
+            
+            <cep/>
+            
+            
+            <endereco/>
+            
+            
+            <numero/>
+            
+            
+            <complemento/>
+            
+            
+            <esconder_endereco_imovel>0</esconder_endereco_imovel>
+            
+            
+            <descritivo xml:space="preserve">Nenhuma observação adicional fornecida.</descritivo>
+            
+            
+            <fotos_imovel/>
+            
+            
+            <data_atualizacao>2025-12-24 17:25:35</data_atualizacao>
+            
+            
+            <latitude/>
+            
+            
+            <longitude/>
+            
+            
+            <video/>
+            
+            
+            <tour_360/>
+            
+            
+            <area_comum/>
+            
+            
+            <area_privativa/>
+            
+            
+            <aceita_troca/>
+            
+            
+            <periodo_locacao/>
+            
+        
+        </imovel>
+        
+    
+        <imovel>
+            
+            
+            <referencia>REAL_TEST_20251227113443</referencia>
+            
+            
+            <codigo_cliente>REAL_TEST_20251227113443</codigo_cliente>
+            
+            
+            <link_cliente/>
+            
+            
+            <titulo>Casa</titulo>
+            
+            
+            <transacao>V</transacao>
+            
+            
+            <transacao2/>
+            
+            
+            <finalidade>RE</finalidade>
+            
+            
+            <finalidade2/>
+            
+            
+            <destaque>0</destaque>
+            
+            
+            <tipo>Casa</tipo>
+            
+            
+            <tipo2/>
+            
+            
+            <valor>80000000</valor>
+            
+            
+            <valor_locacao/>
+            
+            
+            <valor_iptu/>
+            
+            
+            <valor_condominio/>
+            
+            
+            <area_total/>
+            
+            
+            <area_util/>
+            
+            
+            <conservacao/>
+            
+            
+            <quartos/>
+            
+            
+            <suites/>
+            
+            
+            <garagem/>
+            
+            
+            <banheiro/>
+            
+            
+            <closet/>
+            
+            
+            <salas/>
+            
+            
+            <despensa/>
+            
+            
+            <bar/>
+            
+            
+            <cozinha/>
+            
+            
+            <quarto_empregada/>
+            
+            
+            <escritorio/>
+            
+            
+            <area_servico/>
+            
+            
+            <lareira/>
+            
+            
+            <varanda/>
+            
+            
+            <lavanderia/>
+            
+            
+            <aceita_pet>1</aceita_pet>
+            
+            
+            <estado/>
+            
+            
+            <cidade>Rio de Janeiro</cidade>
+            
+            
+            <bairro/>
+            
+            
+            <cep/>
+            
+            
+            <endereco/>
+            
+            
+            <numero/>
+            
+            
+            <complemento/>
+            
+            
+            <esconder_endereco_imovel>0</esconder_endereco_imovel>
+            
+            
+            <descritivo xml:space="preserve">Nenhuma observação adicional fornecida.</descritivo>
+            
+            
+            <fotos_imovel/>
+            
+            
+            <data_atualizacao>2025-12-27 11:34:51</data_atualizacao>
+            
+            
+            <latitude/>
+            
+            
+            <longitude/>
+            
+            
+            <video/>
+            
+            
+            <tour_360/>
+            
+            
+            <area_comum/>
+            
+            
+            <area_privativa/>
+            
+            
+            <aceita_troca/>
+            
+            
+            <periodo_locacao/>
+            
+        
+        </imovel>
+        
+    
+        <imovel>
+            
+            
+            <referencia>2_ABaOnueXUMr-_60X7y20YcFF0Lhtng7WvqhAHJec1bjUHGOiLs-JqzcGwKh4YnxWb8zu3QY</referencia>
+            
+            
+            <codigo_cliente>2_ABaOnueXUMr-_60X7y20YcFF0Lhtng7WvqhAHJec1bjUHGOiLs-JqzcGwKh4YnxWb8zu3QY</codigo_cliente>
+            
+            
+            <link_cliente/>
+            
+            
+            <titulo>Não especificado</titulo>
+            
+            
+            <transacao>V</transacao>
+            
+            
+            <transacao2/>
+            
+            
+            <finalidade>RE</finalidade>
+            
+            
+            <finalidade2/>
+            
+            
+            <destaque>0</destaque>
+            
+            
+            <tipo>Não especificado</tipo>
+            
+            
+            <tipo2/>
+            
+            
+            <valor>Não informado</valor>
+            
+            
+            <valor_locacao/>
+            
+            
+            <valor_iptu/>
+            
+            
+            <valor_condominio/>
+            
+            
+            <area_total/>
+            
+            
+            <area_util/>
+            
+            
+            <conservacao/>
+            
+            
+            <quartos/>
+            
+            
+            <suites/>
+            
+            
+            <garagem/>
+            
+            
+            <banheiro/>
+            
+            
+            <closet/>
+            
+            
+            <salas/>
+            
+            
+            <despensa/>
+            
+            
+            <bar/>
+            
+            
+            <cozinha/>
+            
+            
+            <quarto_empregada/>
+            
+            
+            <escritorio/>
+            
+            
+            <area_servico/>
+            
+            
+            <lareira/>
+            
+            
+            <varanda/>
+            
+            
+            <lavanderia/>
+            
+            
+            <aceita_pet>1</aceita_pet>
+            
+            
+            <estado/>
+            
+            
+            <cidade>Não especificada</cidade>
+            
+            
+            <bairro/>
+            
+            
+            <cep/>
+            
+            
+            <endereco/>
+            
+            
+            <numero/>
+            
+            
+            <complemento/>
+            
+            
+            <esconder_endereco_imovel>0</esconder_endereco_imovel>
+            
+            
+            <descritivo xml:space="preserve">Nenhuma observação</descritivo>
+            
+            
+            <fotos_imovel/>
+            
+            
+            <data_atualizacao>2025-12-28 12:03:24</data_atualizacao>
+            
+            
+            <latitude/>
+            
+            
+            <longitude/>
+            
+            
+            <video/>
+            
+            
+            <tour_360/>
+            
+            
+            <area_comum/>
+            
+            
+            <area_privativa/>
+            
+            
+            <aceita_troca/>
+            
+            
+            <periodo_locacao/>
+            
+        
+        </imovel>
+        
+    
+        <imovel>
+            
+            
+            <referencia>2_ABaOnufL9bQ8saFc0Pcy9HJxCPMb9oELO4ST32rPaMq-QiNDpbL3EWpbDO9Sd5W5ztJSx-4</referencia>
+            
+            
+            <codigo_cliente>2_ABaOnufL9bQ8saFc0Pcy9HJxCPMb9oELO4ST32rPaMq-QiNDpbL3EWpbDO9Sd5W5ztJSx-4</codigo_cliente>
+            
+            
+            <link_cliente/>
+            
+            
+            <titulo>Não especificado</titulo>
+            
+            
+            <transacao>V</transacao>
+            
+            
+            <transacao2/>
+            
+            
+            <finalidade>RE</finalidade>
+            
+            
+            <finalidade2/>
+            
+            
+            <destaque>0</destaque>
+            
+            
+            <tipo>Não especificado</tipo>
+            
+            
+            <tipo2/>
+            
+            
+            <valor>Não informado</valor>
+            
+            
+            <valor_locacao/>
+            
+            
+            <valor_iptu/>
+            
+            
+            <valor_condominio/>
+            
+            
+            <area_total/>
+            
+            
+            <area_util/>
+            
+            
+            <conservacao/>
+            
+            
+            <quartos/>
+            
+            
+            <suites/>
+            
+            
+            <garagem/>
+            
+            
+            <banheiro/>
+            
+            
+            <closet/>
+            
+            
+            <salas/>
+            
+            
+            <despensa/>
+            
+            
+            <bar/>
+            
+            
+            <cozinha/>
+            
+            
+            <quarto_empregada/>
+            
+            
+            <escritorio/>
+            
+            
+            <area_servico/>
+            
+            
+            <lareira/>
+            
+            
+            <varanda/>
+            
+            
+            <lavanderia/>
+            
+            
+            <aceita_pet>1</aceita_pet>
+            
+            
+            <estado/>
+            
+            
+            <cidade>Não especificada</cidade>
+            
+            
+            <bairro/>
+            
+            
+            <cep/>
+            
+            
+            <endereco/>
+            
+            
+            <numero/>
+            
+            
+            <complemento/>
+            
+            
+            <esconder_endereco_imovel>0</esconder_endereco_imovel>
+            
+            
+            <descritivo xml:space="preserve">Nenhuma observação</descritivo>
+            
+            
+            <fotos_imovel/>
+            
+            
+            <data_atualizacao>2025-12-28 12:23:36</data_atualizacao>
+            
+            
+            <latitude/>
+            
+            
+            <longitude/>
+            
+            
+            <video/>
+            
+            
+            <tour_360/>
+            
+            
+            <area_comum/>
+            
+            
+            <area_privativa/>
+            
+            
+            <aceita_troca/>
+            
+            
+            <periodo_locacao/>
+            
+        
+        </imovel>
+        
+    
+        <imovel>
+            
+            
+            <referencia>2_ABaOnucAlRII4hLP0LwjUBIYuDG3pKt_VIy06o4eY233cpO2SX-jdF6jZc1k3dPKKrU-7L4</referencia>
+            
+            
+            <codigo_cliente>2_ABaOnucAlRII4hLP0LwjUBIYuDG3pKt_VIy06o4eY233cpO2SX-jdF6jZc1k3dPKKrU-7L4</codigo_cliente>
+            
+            
+            <link_cliente/>
+            
+            
+            <titulo>Não especificado</titulo>
+            
+            
+            <transacao>V</transacao>
+            
+            
+            <transacao2/>
+            
+            
+            <finalidade>RE</finalidade>
+            
+            
+            <finalidade2/>
+            
+            
+            <destaque>0</destaque>
+            
+            
+            <tipo>Não especificado</tipo>
+            
+            
+            <tipo2/>
+            
+            
+            <valor>Não informado</valor>
+            
+            
+            <valor_locacao/>
+            
+            
+            <valor_iptu/>
+            
+            
+            <valor_condominio/>
+            
+            
+            <area_total/>
+            
+            
+            <area_util/>
+            
+            
+            <conservacao/>
+            
+            
+            <quartos/>
+            
+            
+            <suites/>
+            
+            
+            <garagem/>
+            
+            
+            <banheiro/>
+            
+            
+            <closet/>
+            
+            
+            <salas/>
+            
+            
+            <despensa/>
+            
+            
+            <bar/>
+            
+            
+            <cozinha/>
+            
+            
+            <quarto_empregada/>
+            
+            
+            <escritorio/>
+            
+            
+            <area_servico/>
+            
+            
+            <lareira/>
+            
+            
+            <varanda/>
+            
+            
+            <lavanderia/>
+            
+            
+            <aceita_pet>1</aceita_pet>
+            
+            
+            <estado/>
+            
+            
+            <cidade>Não especificada</cidade>
+            
+            
+            <bairro/>
+            
+            
+            <cep/>
+            
+            
+            <endereco/>
+            
+            
+            <numero/>
+            
+            
+            <complemento/>
+            
+            
+            <esconder_endereco_imovel>0</esconder_endereco_imovel>
+            
+            
+            <descritivo xml:space="preserve">Nenhuma observação</descritivo>
+            
+            
+            <fotos_imovel/>
+            
+            
+            <data_atualizacao>2025-12-28 12:30:32</data_atualizacao>
+            
+            
+            <latitude/>
+            
+            
+            <longitude/>
+            
+            
+            <video/>
+            
+            
+            <tour_360/>
+            
+            
+            <area_comum/>
+            
+            
+            <area_privativa/>
+            
+            
+            <aceita_troca/>
+            
+            
+            <periodo_locacao/>
+            
+        
+        </imovel>
+        
+    
+        <imovel>
+            
+            
+            <referencia>2_ABaOnueCA6cXU30oOfEtKigZUTwxEI--bWU8BdK8qcjc1uDXrHqHFvHeoBtnRFEGt2ehPYY</referencia>
+            
+            
+            <codigo_cliente>2_ABaOnueCA6cXU30oOfEtKigZUTwxEI--bWU8BdK8qcjc1uDXrHqHFvHeoBtnRFEGt2ehPYY</codigo_cliente>
+            
+            
+            <link_cliente/>
+            
+            
+            <titulo>Ponto Comercial</titulo>
+            
+            
+            <transacao>V</transacao>
+            
+            
+            <transacao2/>
+            
+            
+            <finalidade>RE</finalidade>
+            
+            
+            <finalidade2/>
+            
+            
+            <destaque>0</destaque>
+            
+            
+            <tipo>Ponto Comercial</tipo>
+            
+            
+            <tipo2/>
+            
+            
+            <valor>não informado</valor>
+            
+            
+            <valor_locacao/>
+            
+            
+            <valor_iptu/>
+            
+            
+            <valor_condominio/>
+            
+            
+            <area_total/>
+            
+            
+            <area_util/>
+            
+            
+            <conservacao/>
+            
+            
+            <quartos/>
+            
+            
+            <suites/>
+            
+            
+            <garagem/>
+            
+            
+            <banheiro/>
+            
+            
+            <closet/>
+            
+            
+            <salas/>
+            
+            
+            <despensa/>
+            
+            
+            <bar/>
+            
+            
+            <cozinha/>
+            
+            
+            <quarto_empregada/>
+            
+            
+            <escritorio/>
+            
+            
+            <area_servico/>
+            
+            
+            <lareira/>
+            
+            
+            <varanda/>
+            
+            
+            <lavanderia/>
+            
+            
+            <aceita_pet>1</aceita_pet>
+            
+            
+            <estado/>
+            
+            
+            <cidade>svsvsfvf, wefewfewfwfw</cidade>
+            
+            
+            <bairro/>
+            
+            
+            <cep/>
+            
+            
+            <endereco/>
+            
+            
+            <numero/>
+            
+            
+            <complemento/>
+            
+            
+            <esconder_endereco_imovel>0</esconder_endereco_imovel>
+            
+            
+            <descritivo xml:space="preserve">Permite financiamento: Não. Detalhes adicionais: c cssdcsdcsd.</descritivo>
+            
+            
+            <fotos_imovel/>
+            
+            
+            <data_atualizacao>2025-12-28 12:49:34</data_atualizacao>
+            
+            
+            <latitude/>
+            
+            
+            <longitude/>
+            
+            
+            <video/>
+            
+            
+            <tour_360/>
+            
+            
+            <area_comum/>
+            
+            
+            <area_privativa/>
+            
+            
+            <aceita_troca/>
+            
+            
+            <periodo_locacao/>
+            
+        
+        </imovel>
+        
+    
+        <imovel>
+            
+            
+            <referencia>2_ABaOnudOr-MFlT0usitECMFodAiibqIVNIPqSkWsdevbOcJ-Hk0MKDqNV4YVNEeT0SVk4jM</referencia>
+            
+            
+            <codigo_cliente>2_ABaOnudOr-MFlT0usitECMFodAiibqIVNIPqSkWsdevbOcJ-Hk0MKDqNV4YVNEeT0SVk4jM</codigo_cliente>
+            
+            
+            <link_cliente/>
+            
+            
+            <titulo>cascascascsac</titulo>
+            
+            
+            <transacao>V</transacao>
+            
+            
+            <transacao2/>
+            
+            
+            <finalidade>RE</finalidade>
+            
+            
+            <finalidade2/>
+            
+            
+            <destaque>0</destaque>
+            
+            
+            <tipo>cascascascsac</tipo>
+            
+            
+            <tipo2/>
+            
+            
+            <valor>{'valor_total': 'scscscscscs'. 'valor_minimo': 'scsscscscscscscs'. 'valor_condominio': 'sacascascsacsacasc'}</valor>
+            
+            
+            <valor_locacao/>
+            
+            
+            <valor_iptu/>
+            
+            
+            <valor_condominio/>
+            
+            
+            <area_total/>
+            
+            
+            <area_util/>
+            
+            
+            <conservacao/>
+            
+            
+            <quartos/>
+            
+            
+            <suites/>
+            
+            
+            <garagem/>
+            
+            
+            <banheiro/>
+            
+            
+            <closet/>
+            
+            
+            <salas/>
+            
+            
+            <despensa/>
+            
+            
+            <bar/>
+            
+            
+            <cozinha/>
+            
+            
+            <quarto_empregada/>
+            
+            
+            <escritorio/>
+            
+            
+            <area_servico/>
+            
+            
+            <lareira/>
+            
+            
+            <varanda/>
+            
+            
+            <lavanderia/>
+            
+            
+            <aceita_pet>1</aceita_pet>
+            
+            
+            <estado/>
+            
+            
+            <cidade>cascascsac</cidade>
+            
+            
+            <bairro/>
+            
+            
+            <cep/>
+            
+            
+            <endereco/>
+            
+            
+            <numero/>
+            
+            
+            <complemento/>
+            
+            
+            <esconder_endereco_imovel>0</esconder_endereco_imovel>
+            
+            
+            <descritivo xml:space="preserve">fdgfdgfdgf</descritivo>
+            
+            
+            <fotos_imovel/>
+            
+            
+            <data_atualizacao>2025-12-28 12:57:42</data_atualizacao>
+            
+            
+            <latitude/>
+            
+            
+            <longitude/>
+            
+            
+            <video/>
+            
+            
+            <tour_360/>
+            
+            
+            <area_comum/>
+            
+            
+            <area_privativa/>
+            
+            
+            <aceita_troca/>
+            
+            
+            <periodo_locacao/>
+            
+        
+        </imovel>
+        
+    
+        <imovel>
+            
+            
+            <referencia>REAL_TEST_20251228134026</referencia>
+            
+            
+            <codigo_cliente>REAL_TEST_20251228134026</codigo_cliente>
+            
+            
+            <link_cliente/>
+            
+            
+            <titulo>Casa</titulo>
+            
+            
+            <transacao>V</transacao>
+            
+            
+            <transacao2/>
+            
+            
+            <finalidade>RE</finalidade>
+            
+            
+            <finalidade2/>
+            
+            
+            <destaque>0</destaque>
+            
+            
+            <tipo>Casa</tipo>
+            
+            
+            <tipo2/>
+            
+            
+            <valor>800000.00</valor>
+            
+            
+            <valor_locacao/>
+            
+            
+            <valor_iptu/>
+            
+            
+            <valor_condominio/>
+            
+            
+            <area_total/>
+            
+            
+            <area_util/>
+            
+            
+            <conservacao/>
+            
+            
+            <quartos/>
+            
+            
+            <suites/>
+            
+            
+            <garagem/>
+            
+            
+            <banheiro/>
+            
+            
+            <closet/>
+            
+            
+            <salas/>
+            
+            
+            <despensa/>
+            
+            
+            <bar/>
+            
+            
+            <cozinha/>
+            
+            
+            <quarto_empregada/>
+            
+            
+            <escritorio/>
+            
+            
+            <area_servico/>
+            
+            
+            <lareira/>
+            
+            
+            <varanda/>
+            
+            
+            <lavanderia/>
+            
+            
+            <aceita_pet>0</aceita_pet>
+            
+            
+            <estado/>
+            
+            
+            <cidade>Rio de Janeiro</cidade>
+            
+            
+            <bairro/>
+            
+            
+            <cep/>
+            
+            
+            <endereco/>
+            
+            
+            <numero/>
+            
+            
+            <complemento/>
+            
+            
+            <esconder_endereco_imovel>0</esconder_endereco_imovel>
+            
+            
+            <descritivo xml:space="preserve">Nenhuma observação adicional fornecida.</descritivo>
+            
+            
+            <fotos_imovel/>
+            
+            
+            <data_atualizacao>2025-12-28 13:40:37</data_atualizacao>
+            
+            
+            <latitude/>
+            
+            
+            <longitude/>
+            
+            
+            <video/>
+            
+            
+            <tour_360/>
+            
+            
+            <area_comum/>
+            
+            
+            <area_privativa/>
+            
+            
+            <aceita_troca/>
+            
+            
+            <periodo_locacao/>
+            
+        
+        </imovel>
+        
+    
+    </imoveis>
+</Document>

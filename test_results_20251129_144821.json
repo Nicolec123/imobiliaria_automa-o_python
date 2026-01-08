@@ -1,0 +1,147 @@
+{
+  "timestamp": "2025-11-29T14:48:20.149532",
+  "tests": [
+    {
+      "name": "Config - OpenAI API Key",
+      "status": "✅ PASS",
+      "success": true,
+      "message": "Chave configurada (inicia com sk-)",
+      "warning": false
+    },
+    {
+      "name": "Config - Google Drive Folder ID",
+      "status": "✅ PASS",
+      "success": true,
+      "message": "ID configurado: 1GQA5oMSOzwrAOKeFigb...",
+      "warning": false
+    },
+    {
+      "name": "Config - Formulários Google Forms",
+      "status": "✅ PASS",
+      "success": true,
+      "message": "8 formulários configurados",
+      "warning": false
+    },
+    {
+      "name": "Config - Google Client ID",
+      "status": "⚠️  WARN",
+      "success": true,
+      "message": "Não configurado (necessário para Google Forms/Drive)",
+      "warning": true
+    },
+    {
+      "name": "Config - ClickUp API Key",
+      "status": "⚠️  WARN",
+      "success": true,
+      "message": "Não configurado (necessário para ClickUp)",
+      "warning": true
+    },
+    {
+      "name": "OpenAI - Inicialização",
+      "status": "✅ PASS",
+      "success": true,
+      "message": "Integração inicializada com sucesso",
+      "warning": false
+    },
+    {
+      "name": "OpenAI - Análise de Dados",
+      "status": "❌ FAIL",
+      "success": false,
+      "message": "Resposta inválida da API",
+      "warning": false
+    },
+    {
+      "name": "XML - Parse de Imóvel",
+      "status": "✅ PASS",
+      "success": true,
+      "message": "Parse realizado: AP01 - Apartamento Exemplo 01",
+      "warning": false
+    },
+    {
+      "name": "XML - Tipos de Dados",
+      "status": "✅ PASS",
+      "success": true,
+      "message": "Valor convertido corretamente: 210000.0",
+      "warning": false
+    },
+    {
+      "name": "XML - Processamento de Fotos",
+      "status": "✅ PASS",
+      "success": true,
+      "message": "2 fotos processadas",
+      "warning": false
+    },
+    {
+      "name": "XML - Áreas Comuns",
+      "status": "✅ PASS",
+      "success": true,
+      "message": "2 áreas comuns",
+      "warning": false
+    },
+    {
+      "name": "Forms - Carregamento",
+      "status": "✅ PASS",
+      "success": true,
+      "message": "8 formulários carregados",
+      "warning": false
+    },
+    {
+      "name": "Forms - Busca por ID",
+      "status": "✅ PASS",
+      "success": true,
+      "message": "Formulário encontrado: C.I - Vitacon",
+      "warning": false
+    },
+    {
+      "name": "Integration - ChatGPT",
+      "status": "✅ PASS",
+      "success": true,
+      "message": "Inicializada com sucesso",
+      "warning": false
+    },
+    {
+      "name": "Integration - ClickUp",
+      "status": "✅ PASS",
+      "success": true,
+      "message": "Inicializada com sucesso",
+      "warning": false
+    },
+    {
+      "name": "Integration - Chaves na Mão",
+      "status": "✅ PASS",
+      "success": true,
+      "message": "Inicializada com sucesso",
+      "warning": false
+    },
+    {
+      "name": "Integration - Wasseller",
+      "status": "✅ PASS",
+      "success": true,
+      "message": "Inicializada com sucesso",
+      "warning": false
+    },
+    {
+      "name": "Integration - Google Forms",
+      "status": "⚠️  WARN",
+      "success": true,
+      "message": "Não inicializada (requer OAuth2)",
+      "warning": true
+    },
+    {
+      "name": "Integration - Google Drive",
+      "status": "⚠️  WARN",
+      "success": true,
+      "message": "Não inicializada (requer OAuth2)",
+      "warning": true
+    }
+  ],
+  "total": 19,
+  "passed": 18,
+  "failed": 1,
+  "warnings": [
+    "Config - Google Client ID: Não configurado (necessário para Google Forms/Drive)",
+    "Config - ClickUp API Key: Não configurado (necessário para ClickUp)",
+    "Integration - Google Forms: Não inicializada (requer OAuth2)",
+    "Integration - Google Drive: Não inicializada (requer OAuth2)"
+  ]
+}

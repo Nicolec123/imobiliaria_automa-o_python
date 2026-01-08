@@ -1,0 +1,60 @@
+{
+  "tipo": "TESTE_DE_AUTOMACAO",
+  "timestamp": "2025-12-01T18:14:41.808361",
+  "form_data": {
+    "response_id": "TEST_AUTO_20251201181431",
+    "submission_time": "2025-12-01T18:14:31.256357",
+    "answers": {
+      "nome": "João Silva",
+      "telefone": "11999999999",
+      "email": "joao.silva@email.com",
+      "tipo_imovel": "Apartamento",
+      "localizacao": "São Paulo - Zona Sul",
+      "orcamento": "R$ 500.000,00",
+      "observacoes": "Procuro apartamento com 2 quartos, próximo ao metrô"
+    }
+  },
+  "analysis": {
+    "tipo_lead": "comprador",
+    "prioridade": "alta",
+    "categoria": "Apartamento",
+    "resumo": "Cliente procura apartamento com 2 quartos na Zona Sul de São Paulo, próximo ao metrô, com orçamento de R$ 500.000,00.",
+    "informacoes_extraidas": {
+      "nome": "João Silva",
+      "telefone": "11999999999",
+      "email": "joao.silva@email.com",
+      "tipo_imovel": "Apartamento",
+      "localizacao": "São Paulo - Zona Sul",
+      "orcamento": "R$ 500.000,00",
+      "observacoes": "Procuro apartamento com 2 quartos, próximo ao metrô"
+    },
+    "acoes_sugeridas": [
+      "Buscar apartamentos disponíveis na Zona Sul de São Paulo dentro do orçamento",
+      "Entrar em contato com o cliente para entender melhor suas necessidades",
+      "Enviar opções de apartamentos que atendam aos critérios mencionados"
+    ]
+  },
+  "automacoes": {
+    "ClickUp": {
+      "status": "executado",
+      "sucesso": true
+    },
+    "Chaves na Mão": {
+      "status": "nao_configurado",
+      "sucesso": false
+    },
+    "Google Drive": {
+      "status": "nao_configurado",
+      "sucesso": false
+    },
+    "Wasseller": {
+      "status": "executado",
+      "sucesso": true
+    }
+  },
+  "resumo": {
+    "total_integracoes": 4,
+    "sucesso": 2,
+    "taxa_sucesso": "2/4"
+  }
+}

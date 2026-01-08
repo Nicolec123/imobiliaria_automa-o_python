@@ -1,0 +1,151 @@
+"""
+Script simplificado para configurar OAuth2 do Google
+Usa a sessão já aberta no navegador
+"""
+import os
+import json
+# Permite HTTP em localhost (necessário para OAuth2 em desenvolvimento)
+os.environ['OAUTHLIB_INSECURE_TRANSPORT'] = '1'
+from google_auth_oauthlib.flow import Flow
+from google.oauth2.credentials import Credentials
+from config import Config
+
+SCOPES = [
+    'https://www.googleapis.com/auth/forms.responses.readonly',
+    'https://www.googleapis.com/auth/drive.file'
+]
+
+
+def setup_google_oauth_simples():
+    """Configura OAuth2 usando sessão já aberta no navegador"""
+    
+    print("\n" + "="*70)
+    print("🔐 CONFIGURAÇÃO OAUTH2 GOOGLE (Modo Simples)")
+    print("="*70 + "\n")
+    
+    # Verificar se credenciais já existem
+    if os.path.exists('google_credentials.json'):
+        print("⚠️  Arquivo 'google_credentials.json' já existe!")
+        resposta = input("Deseja sobrescrever? (s/n): ").strip().lower()
+        if resposta not in ['s', 'sim', 'y', 'yes']:
+            print("Operação cancelada.")
+            return load_google_credentials()
+    
+    # Validar configurações
+    if not Config.GOOGLE_CLIENT_ID or not Config.GOOGLE_CLIENT_SECRET:
+        print("❌ Erro: Configure GOOGLE_CLIENT_ID e GOOGLE_CLIENT_SECRET no .env")
+        return None
+    
+    print("✅ Credenciais OAuth encontradas no .env")
+    print(f"   Client ID: {Config.GOOGLE_CLIENT_ID[:30]}...")
+    print(f"   Redirect URI: {Config.GOOGLE_REDIRECT_URI}\n")
+    
+    try:
+        flow = Flow.from_client_config(
+            {
+                "web": {
+                    "client_id": Config.GOOGLE_CLIENT_ID,
+                    "client_secret": Config.GOOGLE_CLIENT_SECRET,
+                    "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+                    "token_uri": "https://oauth2.googleapis.com/token",
+                    "redirect_uris": [Config.GOOGLE_REDIRECT_URI]
+                }
+            },
+            scopes=SCOPES,
+            redirect_uri=Config.GOOGLE_REDIRECT_URI
+        )
+        
+        # Gera URL de autorização
+        auth_url, _ = flow.authorization_url(prompt='consent')
+        
+        print("="*70)
+        print("📋 INSTRUÇÕES (Use o navegador onde já está logado)")
+        print("="*70)
+        print("\n⚠️  IMPORTANTE: Use a CONTA GOOGLE DO CLIENTE!")
+        print("   (A mesma que tem os Google Forms e Google Drive)\n")
+        
+        print("1️⃣  Copie a URL abaixo:")
+        print("-" * 70)
+        print(auth_url)
+        print("-" * 70)
+        
+        print("\n2️⃣  Cole essa URL no navegador onde você já está logado")
+        print("   (Não precisa abrir novo navegador)")
+        
+        print("\n3️⃣  Autorize o aplicativo")
+        print("   (Clique em 'Permitir' ou 'Allow')")
+        
+        print("\n4️⃣  Após autorizar, você será redirecionado")
+        print("   (A página pode mostrar erro 404 - isso é normal!)")
+        
+        print("\n5️⃣  Copie a URL COMPLETA da barra de endereços")
+        print("   (Deve começar com: http://localhost:8080/callback?...)\n")
+        
+        redirect_response = input("📋 Cole a URL completa aqui: ").strip()
+        
+        if not redirect_response:
+            print("❌ URL não fornecida. Operação cancelada.")
+            return None
+        
+        # Obtém token
+        print("\n🔄 Obtendo token de acesso...")
+        try:
+            flow.fetch_token(authorization_response=redirect_response)
+            credentials = flow.credentials
+        except Exception as e:
+            print(f"❌ Erro ao obter token: {e}")
+            print("\n💡 Verifique:")
+            print("   - Se copiou a URL completa (começa com http://localhost:8080/callback)")
+            print("   - Se autorizou o aplicativo")
+            print("   - Se está usando a conta correta do cliente")
+            return None
+        
+        # Salva credenciais
+        creds_dict = {
+            'token': credentials.token,
+            'refresh_token': credentials.refresh_token,
+            'token_uri': credentials.token_uri,
+            'client_id': credentials.client_id,
+            'client_secret': credentials.client_secret,
+            'scopes': credentials.scopes
+        }
+        
+        with open('google_credentials.json', 'w') as f:
+            json.dump(creds_dict, f, indent=2)
+        
+        print("\n✅ Credenciais salvas em 'google_credentials.json'")
+        print("⚠️  Este arquivo já está no .gitignore (seguro)")
+        print("\n🎉 Autenticação OAuth2 configurada com sucesso!")
+        
+        return credentials
+        
+    except Exception as e:
+        print(f"\n❌ Erro durante autenticação: {e}")
+        print("\n💡 Verifique:")
+        print("   - Se as credenciais no .env estão corretas")
+        print("   - Se a URL de redirecionamento está configurada no Google Cloud")
+        print("   - Se você copiou a URL completa do redirecionamento")
+        return None
+
+
+def load_google_credentials():
+    """Carrega credenciais salvas"""
+    if not os.path.exists('google_credentials.json'):
+        return None
+    
+    with open('google_credentials.json', 'r') as f:
+        creds_dict = json.load(f)
+    
+    return Credentials(
+        token=creds_dict['token'],
+        refresh_token=creds_dict.get('refresh_token'),
+        token_uri=creds_dict['token_uri'],
+        client_id=creds_dict['client_id'],
+        client_secret=creds_dict['client_secret'],
+        scopes=creds_dict['scopes']
+    )
+
+
+if __name__ == '__main__':
+    setup_google_oauth_simples()
+

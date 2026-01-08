@@ -1,0 +1,56 @@
+{
+  "tipo": "TESTE_DE_AUTOMACAO",
+  "timestamp": "2025-11-29T15:07:30.413076",
+  "form_data": {
+    "response_id": "TEST_AUTO_20251129150728",
+    "submission_time": "2025-11-29T15:07:28.087122",
+    "answers": {
+      "nome": "João Silva",
+      "telefone": "11999999999",
+      "email": "joao.silva@email.com",
+      "tipo_imovel": "Apartamento",
+      "localizacao": "São Paulo - Zona Sul",
+      "orcamento": "R$ 500.000,00",
+      "observacoes": "Procuro apartamento com 2 quartos, próximo ao metrô"
+    }
+  },
+  "analysis": {
+    "error": "Error code: 404 - {'error': {'message': 'The model `gpt-4-turbo-preview` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'param': None, 'code': 'model_not_found'}}",
+    "raw_data": {
+      "response_id": "TEST_AUTO_20251129150728",
+      "submission_time": "2025-11-29T15:07:28.087122",
+      "answers": {
+        "nome": "João Silva",
+        "telefone": "11999999999",
+        "email": "joao.silva@email.com",
+        "tipo_imovel": "Apartamento",
+        "localizacao": "São Paulo - Zona Sul",
+        "orcamento": "R$ 500.000,00",
+        "observacoes": "Procuro apartamento com 2 quartos, próximo ao metrô"
+      }
+    }
+  },
+  "automacoes": {
+    "ClickUp": {
+      "status": "executado",
+      "sucesso": true
+    },
+    "Chaves na Mão": {
+      "status": "executado",
+      "sucesso": true
+    },
+    "Google Drive": {
+      "status": "nao_configurado",
+      "sucesso": false
+    },
+    "Wasseller": {
+      "status": "executado",
+      "sucesso": true
+    }
+  },
+  "resumo": {
+    "total_integracoes": 4,
+    "sucesso": 3,
+    "taxa_sucesso": "3/4"
+  }
+}

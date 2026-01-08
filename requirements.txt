@@ -1,0 +1,33 @@
+# Core dependencies
+python-dotenv==1.0.0
+requests==2.31.0
+flask==3.0.0
+flask-cors==4.0.0
+
+# Google APIs
+google-api-python-client==2.108.0
+google-auth-httplib2==0.1.1
+google-auth-oauthlib==1.1.0
+google-api-core==2.11.1
+
+# OpenAI/ChatGPT
+openai>=1.12.0
+httpx>=0.27.0
+
+# ClickUp API (usando requests diretamente, sem pacote específico)
+# clickup-api não existe, usando requests para chamadas HTTP
+
+# WhatsApp/Wasseller (usando API REST genérica)
+twilio==8.10.0
+
+# Utilities
+pydantic==2.5.0
+schedule==1.2.0
+python-dateutil==2.8.2
+
+# PDF Generation
+reportlab==4.0.7
+
+# Production server (Railway)
+gunicorn==21.2.0
+
