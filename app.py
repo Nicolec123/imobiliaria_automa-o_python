@@ -9,6 +9,7 @@ from setup_google_auth import load_google_credentials
 from datetime import datetime
 import json
 import os
+import threading
 
 app = Flask(__name__)
 CORS(app)
@@ -118,11 +119,28 @@ def sync_forms():
         }), 500
 
 
+def process_form_background(form_response):
+    """Processa formulário em background (thread separada)"""
+    try:
+        print(f"[Background] Processando formulário: {form_response.get('response_id', 'unknown')}")
+        result = orchestrator.process_form_response(form_response)
+        print(f"[Background] Formulário processado: {result.get('success', False)}")
+        return result
+    except Exception as e:
+        import traceback
+        error_details = traceback.format_exc()
+        print(f"[Background] Erro ao processar: {error_details}")
+        return {
+            'success': False,
+            'error': str(e),
+            'details': error_details
+        }
+
 @app.route('/api/webhook/google-forms', methods=['POST'])
 def webhook_google_forms():
     """
     Webhook para receber notificações do Google Forms
-    Responde rapidamente e processa em background para evitar timeout
+    Responde IMEDIATAMENTE e processa em background para evitar timeout
     """
     try:
         data = request.json or {}
@@ -136,41 +154,40 @@ def webhook_google_forms():
                 'error': 'form_response ou form_data não encontrado no payload'
             }), 400
         
-        # Responde rapidamente (evita timeout do Railway)
+        # Extrai informações básicas
         response_id = form_response.get('response_id', 'unknown')
+        form_title = form_response.get('form_title', 'Formulário')
         
-        # Processa em background (sem bloquear a resposta)
-        try:
-            result = orchestrator.process_form_response(form_response)
-            
-            # Se deu tudo certo, retorna sucesso
-            return jsonify({
-                'success': True,
-                'message': 'Formulário processado com sucesso',
-                'response_id': response_id,
-                'result': result
-            }), 200
-            
-        except Exception as process_error:
-            # Retorna erro mas com código 200 para evitar retry do Google
-            return jsonify({
-                'success': False,
-                'message': 'Erro ao processar, mas recebido com sucesso',
-                'response_id': response_id,
-                'error': str(process_error)
-            }), 200
+        # Responde IMEDIATAMENTE (evita timeout do Railway - máximo 30s)
+        # O processamento acontece em background
+        thread = threading.Thread(
+            target=process_form_background,
+            args=(form_response,),
+            daemon=True  # Thread morre quando app morre
+        )
+        thread.start()
+        
+        # Responde imediatamente antes de processar
+        return jsonify({
+            'success': True,
+            'message': 'Formulário recebido e será processado em background',
+            'response_id': response_id,
+            'form_title': form_title,
+            'status': 'processing'
+        }), 200
         
     except Exception as e:
         # Erro crítico - retorna 500
         import traceback
         error_details = traceback.format_exc()
-        print(f"Erro no webhook: {error_details}")
+        print(f"[Webhook] Erro crítico: {error_details}")
         
+        # Mesmo com erro, tenta responder 200 para evitar retry do Google
         return jsonify({
             'success': False,
-            'error': str(e),
-            'details': error_details
-        }), 500
+            'message': 'Erro ao receber requisição, mas registro criado',
+            'error': str(e)
+        }), 200
 
 
 @app.route('/api/batch-process', methods=['POST'])
